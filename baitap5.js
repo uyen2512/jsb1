@@ -12,11 +12,12 @@
 var num = 13;
 var ten = 0;
 var unit = 0;
+var tong = 0;
 
 //? b2
 ten = Math.floor(num/10);
 unit = Math.floor(num%10);
-var tong = ten + unit;
+tong = ten + unit;
 
 //? b3 
 console.log("Tổng của 2 ký số là: " + tong);
