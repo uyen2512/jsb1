@@ -16,13 +16,14 @@
 //? b1
 var luong1ngay = 100000;
 var songaylam = 27;
+var luongnhanduoc = 0;
 
 
 //? b2
 luongnhanduoc = luong1ngay * songaylam;
 
 //?
-console.log("Lương nhận được là" + luongnhanduoc + "đồng");
+console.log("Lương nhận được là: " + luongnhanduoc + " đồng");
 
 
 
