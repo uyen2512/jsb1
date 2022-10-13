@@ -7,9 +7,10 @@
 //? b1: 
 var tiGia = 23500;
 var soTien$ = 2;
+var soTienVND = 0;
 
 //? b2: 
-var soTienVND = soTien$ * tiGia
+soTienVND = soTien$ * tiGia
 
 //? b3
 console.log("So tien VND tương ứng là: " + soTienVND + " đồng"); 
