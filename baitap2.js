@@ -10,9 +10,10 @@ var x2 = 30;
 var x3 = 40;
 var x4 = 50; 
 var x5 = 60;
+var trungBinh = 0;
 
 //? b2:
-var trungBinh = (x1+x2+x3+x4+x5)/5
+trungBinh = (x1+x2+x3+x4+x5)/5
 
 //? b3:
 console.log("Giá trị trung bình là: " + trungBinh)
