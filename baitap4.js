@@ -7,10 +7,12 @@
 //? b1:
 var cdai = 14;
 var crong = 10;
+var cvi = 0;
+var dtich = 0;
 
 //? b2
-var cvi = (cdai + crong) * 2;
-var dtich = cdai * crong;
+cvi = (cdai + crong) * 2;
+dtich = cdai * crong;
 
 //? b3 
 console.log(`Chu vi hình chữ nhật là: ${cvi} \nDiện tích hình chữ nhật là: ${dtich}`)
